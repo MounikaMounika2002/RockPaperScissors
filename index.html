@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css"></link>
+</head>
+<body>
+     <!-- <form>
+        Enter age:<input type="text" id="age">
+    <button type="button"  onclick="check();">check</button>
+</form>   -->
+<!-- <nav id="navbar" class="navcls" style="color:blue">
+    <a href="https://google.com">Google</a>
+   <a href="https://codewithharry.com">codewitharry</a> 
+   <li>Home</li>
+   <li>About</li>
+   <li>Contact</li> -->
+
+<!-- </nav> -->
+<!-- <form>
+    <button type="button" onclick="wateralert();">Water</button>
+    <button type="button" onclick="firealert();">Fire</button>
+    <button type="button" onclick="earthalert();">Earth</button>
+</form>
+<script>
+    function wateralert(){
+        alert("Save Water..Water is life!!!")
+    }
+    function firealert(){
+        alert("Be away from fire..it is so dangerous!!")
+    }
+    function earthalert(){
+        alert("Keep your Mother Earth Clean and Green")
+    }
+</script> -->
+<!-- <div class="bulbyellowcls" id="bulbid1"></div>
+<div class="bulbredcls" id="bulbid2"></div>
+<div class="bulbbluecls" id="bulbid3"></div>
+<div class="bulbgreencls" id="bulbid4"></div>
+<div class="bulborangecls" id="bulbid5"></div>
+<div class="bulbmagentacls" id="bulbid6"></div>
+
+<script>
+    let bulbdiv=document.getElementsByTagName("div")[0]
+    console.log(bulbdiv)
+    console.log(bulbdiv.attributes)
+    console.log(bulbdiv.getAttribute("class"))
+    console.log(document.getElementsByClassName("bulb"))
+</script> -->
+<h1>ROCK,PAPER,SCISSOR</h1>
+
+<div class="rpsdiv">
+<button type="button" class="rpsbtn" onclick="rockfun();"><img src="rock.png"></button>
+<button type="button" class="rpsbtn" onclick="paperfun()";><img src="paper.jpg"></button>
+<button type="button" class="rpsbtn"  onclick="scissorsfun()";><img src="scissor.jpg"></button>
+</div>
+<div class="scorelabel">
+    <div class="submain">User Score</div>
+    <div class="submain">System Score</div>
+
+
+</div>
+<div class="score">
+<div class="userScore">User Score</div>
+<div class="sysScore">System Score</div>
+</div>
+<!-- <script>
+    let x=prompt("enter your age");
+    if (x>10 && x<20){
+        console.log("Age is in between 10 and 20");
+    }
+    else{
+        con22sole.log("enter valid age")
+    }
+</script> -->
+<!-- <form>
+        Enter age:<input type="text" id="age">
+    <button type="button"  onclick="switch1();">check</button>
+</form> 
+<script>
+    function switch1()
+    {
+     let x =document.getElementById("age").value;
+    switch(x)
+    {
+        case "10":
+            document.write("you entered 10")
+            break;
+        case "20":
+        document.write("you entered 20")
+            break;
+        default:
+        document.write("enter valid age") 
+    }
+}       
+</script>-->
+<!-- <script>
+let x=prompt("enter a number");
+if(x%2==0)
+document.write("your number is divisible by 2");
+else if(x%3==0)
+document.write("your number is divisible by 3");
+else
+document.write("your number is  neither divisible by 2 nor is divisible by 3");
+</script> -->
+<!-- <script>
+    let x=100;
+    for(i=0;i<100;i++){
+        document.write(i);
+        document.write("\n");
+    }
+</script> -->
+<!-- <script>
+    let obj={
+        name :"Mounika",
+        lastname:"Gupta"
+    }
+    for(a in obj)
+       document.write(obj[a]+"*")
+    // let str="mounika"
+    // for(a of str){
+    //     document.write(a)
+    // }
+    let x=()=>{
+        console.log("arrow function")
+    }
+    x()
+</script> -->
+ <!-- <script>
+    do{
+    var onum=Math.floor(Math.random()*90)
+    console.log(onum)
+    var num=prompt("Enter a number")
+    if(num==onum)
+    alert("Congratulations you guessed it right!!!")
+    else{
+    alert("sorry...try again..better luck next time")
+    }
+    }while(onum!=num)
+</script>  -->
+<!-- <form>
+    <button type="button" onclick="inputarr()">enter numbers</button>
+    <button type="button" onclick="mean1()">calculate mean</button>
+</form>
+<script>
+    var enteredelem=[];
+    function inputarr(){
+        let len=prompt("Enter how many numbers you want to consider")
+        for(let i=0;i<Number.parseInt(len);i++){
+            var e=prompt("enter"+i+"th number")
+            enteredelem.push(Number.parseInt(e))
+        }
+        console.log(enteredelem)
+    }
+    
+    function mean1(){
+        console.log(enteredelem.length)
+        var sum=0;
+        enteredelem.forEach(function (item){
+            sum=sum+Number.parseInt(item)
+            console.log(item)
+            console.log(sum)
+        })
+        console.log(sum/(enteredelem.length))
+    
+    } -->
+    
+   
+</script>
+<!-- <script>
+    let y="gupta 2002"
+    let x=`Mounika ${y}`
+    console.log(x[0])
+    console.log("mouni\*".length)
+    console.log(x.includes("gup"))
+    console.log(x.startsWith("Mou"))
+    console.log(x.endsWith("Mounika gupta"))
+    console.log(x.toLowerCase())
+    console.log(x.includes("2002"))
+    console.log(x.replace(y[0],"G"))
+    console.log(y)
+</script> -->
+<!-- <script>
+    let x=prompt("enetr a number")
+    while(x!=0){
+        x=prompt("enter a prompt a number")
+    }
+    alert("ufff...you finally entered 0")
+</script> -->
+<!-- <script>
+    let arr=[2,50,40,12,20]
+    arr.forEach((e)=>{
+        if(e%10==0)
+        document.write(e+" ");
+    })
+</script> -->
+<script>
+    // let arr=[2,50,40,12,20,1]
+    // delete arr[0]
+    // let arrstr=arr.toString()
+    // console.log(arrstr)
+    // console.log(arr.join("*"))
+    // console.log(delete arr[0])
+    // console.log(arr)
+
+    // console.log(arr)
+    // console.log(arr.shift())
+    // console.log(arr.sort())
+    // let x=9;
+    // console.log(Array.from("9"))
+    // for(a of arr){
+    //     console.log(a)
+    // }
+    // for(a in arr){
+    //     console.log(a)
+    // }
+    // let foreach1=arr.forEach((e)=>{
+    //     return e*e
+    // })
+    // console.log(foreach1)
+    // let map1=arr.map((e)=>{
+    //     return e*e
+    // })
+    // console.log(map1)
+    // let filter1=arr.filter((e)=>{
+    //     return e<20
+    // })
+    // console.log(filter1)
+    // console.log(arr)
+        // let reduce1=arr.reduce((e1,e2)=>{
+        //     // console.log (Number.parseInt(e1+e2))
+        //     return e1+e2
+        // })
+        // console.log(reduce1)
+        
+
+</script>
+
+
+<!-- <table>
+    <tr>
+        <th>Name</th>
+        <th>R.No</th>
+        <th>cgpa</th>
+    </tr>
+    <tr>
+        <td>
+            Mounika
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            8.4
+        </td>
+    </tr>
+</table> -->
+<script src="practice.js"></script>
+</body>
+</html>
